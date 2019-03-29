@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:oled-controller-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,8 +20,8 @@ U 1 1 5C795E54
 P 5500 3900
 AR Path="/5C795E54" Ref="U?"  Part="1" 
 AR Path="/5C795DF5/5C795E54" Ref="U?"  Part="1" 
-F 0 "U?" H 5500 5978 50  0000 C CNN
-F 1 "FT2232D" H 5500 5887 50  0000 C CNN
+F 0 "U?" H 4800 5750 50  0000 C CNN
+F 1 "FT2232D" H 6100 5750 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5500 3900 50  0001 C CNN
 F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232D.pdf" H 5500 3900 50  0001 C CNN
 	1    5500 3900
@@ -34,4 +35,280 @@ Text HLabel 4200 3000 0    50   BiDi ~ 0
 USB-DM
 Wire Wire Line
 	4200 3000 4600 3000
+Text HLabel 8450 2650 2    50   BiDi ~ 0
+SWDIO
+Text HLabel 8450 2950 2    50   Output ~ 0
+SWDCLK
+Text HLabel 6750 3900 2    50   Output ~ 0
+FT_TXD
+Text HLabel 6750 4000 2    50   Input ~ 0
+FT_RX
+Wire Wire Line
+	5700 2000 5700 1800
+Wire Wire Line
+	5700 1800 5600 1800
+Wire Wire Line
+	5100 1800 5100 2000
+Wire Wire Line
+	5300 2000 5300 1800
+Connection ~ 5300 1800
+Wire Wire Line
+	5300 1800 5100 1800
+Wire Wire Line
+	5400 2000 5400 1800
+Connection ~ 5400 1800
+Wire Wire Line
+	5400 1800 5300 1800
+Wire Wire Line
+	5600 2000 5600 1800
+Connection ~ 5600 1800
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C79A896
+P 5400 1800
+F 0 "#PWR?" H 5400 1650 50  0001 C CNN
+F 1 "+3V3" H 5415 1973 50  0000 C CNN
+F 2 "" H 5400 1800 50  0001 C CNN
+F 3 "" H 5400 1800 50  0001 C CNN
+	1    5400 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1800 5600 1800
+Wire Wire Line
+	5200 5700 5200 5900
+Wire Wire Line
+	5200 5900 5400 5900
+Wire Wire Line
+	5700 5900 5700 5700
+Wire Wire Line
+	5600 5700 5600 5900
+Connection ~ 5600 5900
+Wire Wire Line
+	5600 5900 5700 5900
+Wire Wire Line
+	5500 5700 5500 5900
+Connection ~ 5500 5900
+Wire Wire Line
+	5500 5900 5600 5900
+Wire Wire Line
+	5400 5700 5400 5900
+Connection ~ 5400 5900
+Wire Wire Line
+	5400 5900 5500 5900
+$Comp
+L power:GND #PWR?
+U 1 1 5C79AE3D
+P 5500 5900
+F 0 "#PWR?" H 5500 5650 50  0001 C CNN
+F 1 "GND" H 5505 5727 50  0000 C CNN
+F 2 "" H 5500 5900 50  0001 C CNN
+F 3 "" H 5500 5900 50  0001 C CNN
+	1    5500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5C79AFEF
+P 4100 4400
+F 0 "Y?" V 4050 4150 50  0000 L CNN
+F 1 "Crystal" V 4150 4000 50  0000 L CNN
+F 2 "" H 4100 4400 50  0001 C CNN
+F 3 "~" H 4100 4400 50  0001 C CNN
+	1    4100 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 4500 4350 4500
+Wire Wire Line
+	4350 4500 4350 4550
+Wire Wire Line
+	4600 4300 4350 4300
+Wire Wire Line
+	4350 4300 4350 4250
+Text HLabel 7700 3600 2    50   Output ~ 0
+nRESET
+NoConn ~ 6400 3000
+NoConn ~ 6400 2900
+Wire Wire Line
+	6400 2400 6900 2400
+Wire Wire Line
+	6400 2500 6900 2500
+Wire Wire Line
+	6400 2600 6900 2600
+Wire Wire Line
+	6400 2700 6900 2700
+NoConn ~ 6400 2800
+Text Label 6900 2400 2    50   ~ 0
+JTAG_TCK
+Text Label 6900 2500 2    50   ~ 0
+JTAG_TDI
+Text Label 6900 2600 2    50   ~ 0
+JTAG_TDO
+Text Label 6900 2700 2    50   ~ 0
+JTAG_TMS
+Text Label 6900 3400 2    50   ~ 0
+JTAG_nTRST
+NoConn ~ 6400 3300
+NoConn ~ 6400 3500
+NoConn ~ 6400 4100
+NoConn ~ 6400 4200
+NoConn ~ 6400 4300
+NoConn ~ 6400 4400
+NoConn ~ 6400 4500
+NoConn ~ 6400 4600
+NoConn ~ 6400 4800
+NoConn ~ 6400 4900
+NoConn ~ 6400 5000
+NoConn ~ 6400 5100
+NoConn ~ 6400 5200
+Wire Wire Line
+	6750 3900 6400 3900
+Wire Wire Line
+	6750 4000 6400 4000
+Wire Wire Line
+	4600 2600 4300 2600
+Wire Wire Line
+	4300 2600 4300 2300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C7A1AF9
+P 4300 2300
+F 0 "#PWR?" H 4300 2150 50  0001 C CNN
+F 1 "+3V3" H 4315 2473 50  0000 C CNN
+F 2 "" H 4300 2300 50  0001 C CNN
+F 3 "" H 4300 2300 50  0001 C CNN
+	1    4300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C7A1CE3
+P 7950 2500
+F 0 "R?" H 8009 2546 50  0000 L CNN
+F 1 "430R" H 8009 2455 50  0000 L CNN
+F 2 "" H 7950 2500 50  0001 C CNN
+F 3 "~" H 7950 2500 50  0001 C CNN
+	1    7950 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2650 8450 2650
+Wire Wire Line
+	7950 2650 7950 2600
+Wire Wire Line
+	7950 2350 7450 2350
+Text Label 7450 2350 0    50   ~ 0
+JTAG_TDI
+Wire Wire Line
+	7950 2650 7450 2650
+Connection ~ 7950 2650
+Text Label 7450 2650 0    50   ~ 0
+JTAG_TDO
+Wire Wire Line
+	7950 2350 7950 2400
+Wire Wire Line
+	8450 2950 7450 2950
+Text Label 7450 2950 0    50   ~ 0
+JTAG_TCK
+Wire Wire Line
+	6400 3400 6900 3400
+Wire Wire Line
+	6400 3700 7200 3700
+Wire Wire Line
+	7200 3700 7200 3500
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C7A660D
+P 7200 3500
+F 0 "#PWR?" H 7200 3350 50  0001 C CNN
+F 1 "+3V3" H 7215 3673 50  0000 C CNN
+F 2 "" H 7200 3500 50  0001 C CNN
+F 3 "" H 7200 3500 50  0001 C CNN
+	1    7200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 5400 6750 5400
+Wire Wire Line
+	6750 5400 6750 5600
+$Comp
+L power:GND #PWR?
+U 1 1 5C7A6EE3
+P 6750 5600
+F 0 "#PWR?" H 6750 5350 50  0001 C CNN
+F 1 "GND" H 6755 5427 50  0000 C CNN
+F 2 "" H 6750 5600 50  0001 C CNN
+F 3 "" H 6750 5600 50  0001 C CNN
+	1    6750 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3600 7500 3600
+Wire Wire Line
+	6400 3100 7500 3100
+Wire Wire Line
+	7500 3100 7500 3600
+Connection ~ 7500 3600
+Wire Wire Line
+	7500 3600 7700 3600
+Text Label 7100 3100 2    50   ~ 0
+nRST
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5C7A8C58
+P 9150 3650
+F 0 "RN?" V 8733 3650 50  0000 C CNN
+F 1 "4x 100k" V 8824 3650 50  0000 C CNN
+F 2 "" V 9425 3650 50  0001 C CNN
+F 3 "~" H 9150 3650 50  0001 C CNN
+	1    9150 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 3450 8500 3450
+Wire Wire Line
+	9350 3450 9800 3450
+Wire Wire Line
+	8950 3550 8500 3550
+Wire Wire Line
+	8950 3650 8500 3650
+Wire Wire Line
+	8950 3750 8500 3750
+Wire Wire Line
+	9350 3550 9800 3550
+Wire Wire Line
+	9350 3650 9800 3650
+Wire Wire Line
+	9350 3750 9800 3750
+Text Label 8500 3450 0    50   ~ 0
+JTAG_TDI
+Text Label 8500 3550 0    50   ~ 0
+JTAG_TDO
+Text Label 8500 3650 0    50   ~ 0
+JTAG_TCK
+Text Label 8500 3750 0    50   ~ 0
+nRST
+Wire Wire Line
+	9800 3750 9800 3650
+Connection ~ 9800 3450
+Wire Wire Line
+	9800 3450 9800 3250
+Connection ~ 9800 3550
+Wire Wire Line
+	9800 3550 9800 3450
+Connection ~ 9800 3650
+Wire Wire Line
+	9800 3650 9800 3550
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C7AF565
+P 9800 3250
+F 0 "#PWR?" H 9800 3100 50  0001 C CNN
+F 1 "+3V3" H 9815 3423 50  0000 C CNN
+F 2 "" H 9800 3250 50  0001 C CNN
+F 3 "" H 9800 3250 50  0001 C CNN
+	1    9800 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
