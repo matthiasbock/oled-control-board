@@ -1,3 +1,6 @@
 [submodule "lib"]
 	path = lib
 	url = git@github.com:matthiasbock/kicad-libraries.git
+[submodule "parts/oled-display"]
+	path = parts/oled-display
+	url = git@github.com:adafruit/Adafruit-1.5inch-Color-OLED-PCB.git
