@@ -30,7 +30,7 @@ L Connector_Generic:Conn_01x20 J1
 U 1 1 5CA0EBAD
 P 2000 3150
 F 0 "J1" H 2000 2050 50  0000 C CNN
-F 1 "Wuerth FFC socket (slave)" H 2000 4200 50  0000 C CNN
+F 1 "Wuerth FFC socket (slave configuration)" H 2300 4250 50  0000 C CNN
 F 2 "Matthias:Wuerth_687120149022_1x20-1MP_P0.5mm_Horizontal_Handsolder" H 2000 3150 50  0001 C CNN
 F 3 "~" H 2000 3150 50  0001 C CNN
 	1    2000 3150
@@ -198,9 +198,9 @@ Wire Wire Line
 Wire Wire Line
 	6250 2550 7200 2550
 Wire Wire Line
-	6250 2650 7000 2650
+	6250 2650 7200 2650
 Wire Wire Line
-	6250 2750 7000 2750
+	6250 2750 7200 2750
 Wire Wire Line
 	6250 2950 7200 2950
 Wire Wire Line
@@ -208,27 +208,27 @@ Wire Wire Line
 Wire Wire Line
 	6250 3150 7200 3150
 Wire Wire Line
-	6250 3350 7000 3350
+	6250 3350 7200 3350
 Wire Wire Line
-	6250 3450 7000 3450
+	6250 3450 7200 3450
 Wire Wire Line
-	6250 3750 7000 3750
+	6250 3750 7200 3750
 Wire Wire Line
-	6250 3850 7000 3850
+	6250 3850 7200 3850
 Wire Wire Line
-	6250 4050 7000 4050
+	6250 4050 7200 4050
 Wire Wire Line
-	6250 4150 7000 4150
+	6250 4150 7200 4150
 Wire Wire Line
-	6250 4250 7000 4250
+	6250 4250 7200 4250
 Wire Wire Line
-	6250 4450 7000 4450
+	6250 4450 7200 4450
 Wire Wire Line
-	6250 4650 7000 4650
+	6250 4650 7200 4650
 Wire Wire Line
-	6250 4750 7000 4750
+	6250 4750 7200 4750
 Wire Wire Line
-	6250 4850 7000 4850
+	6250 4850 7200 4850
 $Comp
 L Connector_Generic:Conn_01x06 J2
 U 1 1 5CA45764
@@ -294,11 +294,11 @@ Text Label 7200 2550 2    50   ~ 0
 MASTER_SPI_nCS2
 Text Label 7800 2450 0    50   ~ 0
 nCS_OLED
-Text Label 6600 2650 0    50   ~ 0
+Text Label 7200 2650 2    50   ~ 0
 nCS_OLED
 Text Label 7800 2550 0    50   ~ 0
 nCS_SD
-Text Label 6600 2750 0    50   ~ 0
+Text Label 7200 2750 2    50   ~ 0
 nCS_SD
 Text Label 7200 2950 2    50   ~ 0
 MASTER_SPI_SCLK
@@ -306,16 +306,16 @@ Text Label 7200 3050 2    50   ~ 0
 MASTER_SPI_MOSI
 Text Label 7200 3150 2    50   ~ 0
 MASTER_SPI_MISO
-Text Label 6600 4650 0    50   ~ 0
+Text Label 7200 4650 2    50   ~ 0
 PMOD_CLK
-Text Label 6550 4850 0    50   ~ 0
+Text Label 7200 4850 2    50   ~ 0
 PMOD_DOUT
-Text Label 6550 4750 0    50   ~ 0
+Text Label 7200 4750 2    50   ~ 0
 PMOD_nPL
-Text Label 6600 4450 0    50   ~ 0
+Text Label 7200 4450 2    50   ~ 0
 PMOD_nCE
 $Sheet
-S 5250 2300 1000 2700
+S 5250 2300 1000 2850
 U 5C795DEE
 F0 "Microcontroller" 50
 F1 "mcu.sch" 50
@@ -338,30 +338,31 @@ F17 "SPI3_MISO" I R 6250 4850 50
 F18 "SPI3_MOSI" O R 6250 4750 50 
 F19 "nCS_FFC_SLAVE2" I R 6250 3850 50 
 F20 "OLED_DC" O R 6250 3550 50 
+F21 "Blinky" O R 6250 5050 50 
 $EndSheet
 Wire Wire Line
-	6250 3550 7000 3550
-Text Label 7000 3750 2    50   ~ 0
+	6250 3550 7200 3550
+Text Label 7200 3750 2    50   ~ 0
 SLAVE_SPI_nCS1
-Text Label 7000 3850 2    50   ~ 0
+Text Label 7200 3850 2    50   ~ 0
 SLAVE_SPI_nCS2
-Text Label 7000 4050 2    50   ~ 0
+Text Label 7200 4050 2    50   ~ 0
 SLAVE_SPI_SCLK
-Text Label 7000 4150 2    50   ~ 0
+Text Label 7200 4150 2    50   ~ 0
 SLAVE_SPI_MOSI
-Text Label 7000 4250 2    50   ~ 0
+Text Label 7200 4250 2    50   ~ 0
 SLAVE_SPI_MISO
 Text Label 7800 2750 0    50   ~ 0
 SD_CD
-Text Label 6750 3350 0    50   ~ 0
+Text Label 7200 3350 2    50   ~ 0
 SD_CD
 Text Label 7800 2250 0    50   ~ 0
 OLED_DC
-Text Label 6700 3550 0    50   ~ 0
+Text Label 7200 3550 2    50   ~ 0
 OLED_DC
 Text Label 7800 2350 0    50   ~ 0
 OLED_RESET
-Text Label 6550 3450 0    50   ~ 0
+Text Label 7200 3450 2    50   ~ 0
 OLED_RESET
 $Comp
 L Connector:USB_B_Mini J5
@@ -427,4 +428,91 @@ Wire Wire Line
 	2300 6600 2300 6800
 Text Notes 3000 6300 0    50   ~ 0
 Auxiliary power supply (optional)
+$Comp
+L Device:LED D1
+U 1 1 5CA80EEE
+P 4950 6550
+F 0 "D1" V 4988 6433 50  0000 R CNN
+F 1 "LED" V 4897 6433 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4950 6550 50  0001 C CNN
+F 3 "~" H 4950 6550 50  0001 C CNN
+	1    4950 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5CA81041
+P 4950 6300
+F 0 "R3" H 4891 6254 50  0000 R CNN
+F 1 "R_Small" H 4891 6345 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4950 6300 50  0001 C CNN
+F 3 "~" H 4950 6300 50  0001 C CNN
+	1    4950 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5CA810C1
+P 4950 6700
+F 0 "#PWR0118" H 4950 6450 50  0001 C CNN
+F 1 "GND" H 4955 6527 50  0000 C CNN
+F 2 "" H 4950 6700 50  0001 C CNN
+F 3 "" H 4950 6700 50  0001 C CNN
+	1    4950 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0119
+U 1 1 5CA81134
+P 4950 6200
+F 0 "#PWR0119" H 4950 6050 50  0001 C CNN
+F 1 "+3V3" H 4965 6373 50  0000 C CNN
+F 2 "" H 4950 6200 50  0001 C CNN
+F 3 "" H 4950 6200 50  0001 C CNN
+	1    4950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5CA8323E
+P 5600 6550
+F 0 "D2" V 5638 6433 50  0000 R CNN
+F 1 "LED" V 5547 6433 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5600 6550 50  0001 C CNN
+F 3 "~" H 5600 6550 50  0001 C CNN
+	1    5600 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5CA83245
+P 5600 6300
+F 0 "R4" H 5541 6254 50  0000 R CNN
+F 1 "R_Small" H 5541 6345 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5600 6300 50  0001 C CNN
+F 3 "~" H 5600 6300 50  0001 C CNN
+	1    5600 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 5CA8324C
+P 5600 6700
+F 0 "#PWR0126" H 5600 6450 50  0001 C CNN
+F 1 "GND" H 5605 6527 50  0000 C CNN
+F 2 "" H 5600 6700 50  0001 C CNN
+F 3 "" H 5600 6700 50  0001 C CNN
+	1    5600 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 6200 5600 6050
+Wire Wire Line
+	5600 6050 6000 6050
+Text Label 6000 6050 2    50   ~ 0
+Blinky
+Wire Wire Line
+	6250 5050 7200 5050
+Text Label 7200 5050 2    50   ~ 0
+Blinky
 $EndSCHEMATC
