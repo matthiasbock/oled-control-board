@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="293.72116mm"
-   height="119.86108mm"
-   viewBox="0 0 293.72116 119.86108"
+   width="249.41949mm"
+   height="112.64506mm"
+   viewBox="0 0 249.41949 112.64506"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="Blockdiagramm.svg">
+   sodipodi:docname="Komponenten.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,14 +25,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="494.6755"
-     inkscape:cy="206.75017"
+     inkscape:zoom="1.4"
+     inkscape:cx="309.55234"
+     inkscape:cy="188.41481"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1019"
+     inkscape:window-height="1139"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,56 +56,28 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(14.56216,-20.780972)">
+     transform="translate(14.562285,-20.780847)">
     <rect
-       style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.794;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79400003;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="rect4751"
        width="125.08214"
        height="106.64054"
        x="-14.165285"
        y="21.177847" />
     <rect
-       style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4747"
-       width="22.717911"
-       height="22.717911"
-       x="22.183371"
-       y="59.130119" />
-    <rect
-       style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.794;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79400003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4749"
-       width="134.16931"
-       height="38.219543"
+       width="78.04274"
+       height="34.745037"
        x="144.59282"
        y="31.06682" />
     <rect
-       style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4753"
-       width="30.483109"
-       height="11.395317"
-       x="16.948215"
-       y="101.54769" />
-    <rect
-       style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4755"
-       width="10.690781"
-       height="76.171814"
-       x="-10.156241"
-       y="33.204975" />
-    <rect
-       style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4759"
-       width="9.6217022"
-       height="33.94323"
-       x="86.406342"
-       y="56.425957" />
-    <rect
-       style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.794;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79400003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4761"
-       width="91.471024"
-       height="51.180878"
-       x="144.5928"
-       y="89.064293" />
+       width="90.401947"
+       height="35.144711"
+       x="144.05826"
+       y="97.884193" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.57687235px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -116,7 +88,7 @@
          id="tspan4763"
          x="157.63115"
          y="117.01806"
-         style="stroke-width:0.26458332px">MCU-Platine</tspan></text>
+         style="stroke-width:0.26458332px">Primary system board</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.18834162px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -127,99 +99,122 @@
          id="tspan4767"
          x="156.61133"
          y="50.719395"
-         style="stroke-width:0.26458332px">Inkrementalgeber+Taster-Platine</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="29.666918"
-       y="72.359955"
-       id="text4773"><tspan
-         sodipodi:role="line"
-         id="tspan4771"
-         x="29.666918"
+         style="stroke-width:0.26458332px">User interface board</tspan></text>
+    <g
+       id="g4793">
+      <rect
+         y="59.130119"
+         x="22.183371"
+         height="22.717911"
+         width="22.717911"
+         id="rect4747"
+         style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text4773"
          y="72.359955"
-         style="stroke-width:0.26458332px">MCU</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-78.290123"
-       y="92.176758"
-       id="text4781"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan4779"
-         x="-78.290123"
-         y="92.176758"
-         style="stroke-width:0.26458332px">PMOD</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-90.287125"
-       y="-3.9602575"
-       id="text4785"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan4783"
-         x="-90.287125"
-         y="-3.9602575"
-         style="stroke-width:0.26458332px">Adafruit OLED (Dual SPI)</tspan></text>
-    <rect
-       style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4753-3"
-       width="8.9535303"
-       height="33.675961"
-       x="58.737705"
-       y="56.238037" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-74.555862"
-       y="64.342361"
-       id="text4777"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan4775"
-         x="-74.555862"
-         y="64.342361"
-         style="stroke-width:0.26458332px">FPC</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="18.532833"
-       y="108.50408"
-       id="text4787"><tspan
-         sodipodi:role="line"
-         id="tspan4785"
-         x="18.532833"
+         x="29.666918"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="72.359955"
+           x="29.666918"
+           id="tspan4771"
+           sodipodi:role="line">MCU</tspan></text>
+    </g>
+    <g
+       id="g4783"
+       transform="translate(5.2916667,-19.84375)">
+      <rect
+         y="56.425957"
+         x="86.406342"
+         height="33.94323"
+         width="9.6217022"
+         id="rect4759"
+         style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         transform="rotate(-90)"
+         id="text4781"
+         y="92.554733"
+         x="-77.912148"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="92.554733"
+           x="-77.912148"
+           id="tspan4779"
+           sodipodi:role="line">PMOD</tspan></text>
+    </g>
+    <g
+       id="g4807"
+       transform="translate(0.37797619,2.4568452)">
+      <rect
+         y="33.204975"
+         x="-10.534218"
+         height="76.171814"
+         width="10.690781"
+         id="rect4755"
+         style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         transform="rotate(-90)"
+         id="text4785"
+         y="-4.1492457"
+         x="-95.578789"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan4800"
+           style="stroke-width:0.26458332px"
+           y="-4.1492457"
+           x="-95.578789"
+           sodipodi:role="line">Adafruit 1.5&quot; OLED display board</tspan></text>
+    </g>
+    <g
+       id="g4788"
+       transform="translate(32.694941,23.056548)">
+      <rect
+         y="56.238037"
+         x="58.737705"
+         height="33.675961"
+         width="8.9535303"
+         id="rect4753-3"
+         style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         transform="rotate(-90)"
+         id="text4777"
+         y="64.720337"
+         x="-76.067764"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="64.720337"
+           x="-76.067764"
+           id="tspan4775"
+           sodipodi:role="line">FFC</tspan></text>
+    </g>
+    <g
+       id="g4798">
+      <rect
+         y="101.54769"
+         x="16.948215"
+         height="11.395317"
+         width="30.483109"
+         id="rect4753"
+         style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text4787"
          y="108.50408"
-         style="stroke-width:0.26458332px">10-Pin ARM SWD</tspan></text>
-    <rect
-       style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4753-6"
-       width="26.325377"
-       height="10.544869"
-       x="20.288208"
-       y="30.876747" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="22.185677"
-       y="36.980923"
-       id="text4783"><tspan
-         sodipodi:role="line"
-         id="tspan4781"
-         x="22.185677"
-         y="36.980923"
-         style="stroke-width:0.26458332px">8 MHz Quartz</tspan></text>
+         x="18.532833"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="108.50408"
+           x="18.532833"
+           id="tspan4785"
+           sodipodi:role="line">10-Pin ARM SWD</tspan></text>
+    </g>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 21.912541,70.527464 c -21.16666544,0 -21.16666544,0 -21.16666544,0"
        id="path4772"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 33.629804,58.810203 V 42.17925"
-       id="path4774"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -228,24 +223,25 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 44.969089,70.338477 H 58.009267"
+       d="M 44.969089,75.913626 91.46016,95.662882"
        id="path4778"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 44.591113,64.10187 c 17.487084,-23.746624 29.493519,-11.619913 41.577382,0"
+       d="M 44.969089,64.952316 91.271174,52.384608"
        id="path4780"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 95.806887,73.362287 C 129.35028,73.942994 101.24956,49.245153 144.37683,48.604846"
+       d="m 101.57102,52.006632 42.80581,-3.401786"
        id="path4782"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 68.214624,71.850381 C 108.57993,69.455009 32.606626,105.17226 144.56581,112.8608"
+       d="m 100.90956,95.473893 43.46726,19.843747"
        id="path4784"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -273,5 +269,86 @@
        cx="-7.430089"
        cy="122.87717"
        r="2.4074404" />
+    <g
+       transform="translate(1.8180109,-74.326516)"
+       id="g4798-3">
+      <rect
+         y="101.54769"
+         x="16.948215"
+         height="11.395317"
+         width="30.483109"
+         id="rect4753-6"
+         style="opacity:1;fill:#fffffa;fill-opacity:1;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text4787-7"
+         y="108.50408"
+         x="18.532833"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.26458332px"
+           y="108.50408"
+           x="18.532833"
+           id="tspan4785-5"
+           sodipodi:role="line">Aux power (USB)</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 34.196769,39.155443 V 58.432225"
+       id="path4776-3"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="65.928444"
+       y="56.753166"
+       id="text4850"><tspan
+         sodipodi:role="line"
+         x="65.928444"
+         y="56.753166"
+         style="stroke-width:0.26458332px"
+         id="tspan4858">SPI3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="59.721718"
+       y="93.733635"
+       id="text4850-5"><tspan
+         sodipodi:role="line"
+         x="59.721718"
+         y="93.733635"
+         style="stroke-width:0.26458332px"
+         id="tspan4858-6">Master: SPI1</tspan><tspan
+         sodipodi:role="line"
+         x="59.721718"
+         y="97.702385"
+         style="stroke-width:0.26458332px"
+         id="tspan4980">Slave: SPI2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="7.5300503"
+       y="69.849373"
+       id="text4850-2"><tspan
+         sodipodi:role="line"
+         x="7.5300503"
+         y="69.849373"
+         style="stroke-width:0.26458332px"
+         id="tspan4858-0">SPI1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.17499995px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="34.381462"
+       y="91.067139"
+       id="text4850-9"><tspan
+         sodipodi:role="line"
+         x="34.381462"
+         y="91.067139"
+         style="stroke-width:0.26458332px"
+         id="tspan4858-3">SWD,</tspan><tspan
+         sodipodi:role="line"
+         x="34.381462"
+         y="95.035889"
+         style="stroke-width:0.26458332px"
+         id="tspan5012">USART2</tspan></text>
   </g>
 </svg>
