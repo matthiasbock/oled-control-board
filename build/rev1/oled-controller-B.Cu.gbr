@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.0.1+dfsg1-2*
-G04 #@! TF.CreationDate,2019-04-05T14:38:43+02:00*
+G04 #@! TF.CreationDate,2019-04-19T13:27:36+02:00*
 G04 #@! TF.ProjectId,oled-controller,6F6C65642D636F6E74726F6C6C65722E,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L2,Bot,Signal*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.0.1+dfsg1-2) date Fr 05 Apr 2019 14:38:43 CEST*
+G04 Created by KiCad (PCBNEW 5.0.1+dfsg1-2) date Fr 19 Apr 2019 13:27:36 CEST*
 %MOMM*%
 %LPD*%
 G01*
@@ -1374,14 +1374,13 @@ G04 #@! TO.P,R1,2*
 G04 #@! TO.N,GND*
 X148350000Y-71755000D03*
 D22*
+G04 #@! TO.N,/Microcontroller/BOOT0*
+X179300000Y-90900000D03*
 G04 #@! TO.N,GND*
 X160750000Y-65250000D03*
 X159258000Y-66548000D03*
 X153543000Y-76835000D03*
 X160000000Y-82250000D03*
-G04 #@! TO.N,/Microcontroller/BOOT0*
-X179300000Y-90900000D03*
-G04 #@! TO.N,GND*
 X169100000Y-64650000D03*
 X166878000Y-64262000D03*
 X149860000Y-95250000D03*
